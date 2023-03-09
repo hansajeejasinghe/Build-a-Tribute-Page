@@ -1,0 +1,36 @@
+#head {
+    background-color: rgba(184, 135, 89, 0.146);
+    height: 200px;
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+
+#subT {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#image::after {
+    content: "\a";
+    white-space: pre;
+}
+
+#img-caption {
+    text-align: center;
+    font-style: italic;
+}
+
