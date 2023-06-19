@@ -27,7 +27,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top:80px;
     width: 75%;
+    filter: grayscale(85%);
 }
 
 #image::after {
@@ -76,4 +78,3 @@ li {
     font-weight: 150;
     text-align: center;
 }
-
